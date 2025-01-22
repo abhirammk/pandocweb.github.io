@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("avenir-lt-std-roman.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+body {
+    /*font-family: Arial, Verdana, sans-serif;*/
+    font-family:  'Avenir LT Std';
+    font-size: 15px;
+    /*margin: 1em 4.2em 1em 1.2em;*/
+    max-width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 2em;
+}
+
+
+h1 {
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    line-height: 2em;
+    font-size:38px;
+    margin-bottom: .51em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #2575fe;
+}
+
+h2 {
+    font-size:30px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2575fe;
+    
+}
+
+h3 {
+    font-size:26px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2575fe;
+}
+
+h4 {
+    font-size:22px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #2575fe;
+}
+
+h5 {
+    font-size:22px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #bc4ee7;
+}
+a:visited{
+    color: #2575fe;
+}
+
+
+#profile_pic {
+ float:right;
+ margin:0em 0em 1em 1em;
+ }
+
+.footer {
+    font-size: .8em;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.navbar {
+    background: rgb(231, 231, 231);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+button:select {
+    border-radius: 0.2em;
+    background-color: #F0F0F0;
+  }
+  
+button:hover, select:hover {
+    background-color: #E0E0E0;
+  }
+button:active, select:active {
+    background-color: #D0D0D0;
+  }
+
+.cont {
+    /*font-family: Arial, Verdana, sans-serif;*/
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    line-height: 2em;
+    font-size:25px;
+    margin-bottom: .51em;
+    font-weight: bold;
+    font-style: normal;
+    color: #2575fe;
+    max-width: 50%;
+}
+
+/* Hide navbar during print */
+@media print {
+    .navbar {
+      display: none;
+    }
+  
+    body {
+      margin: 0; /* Reset default margins for better print layout */
+    }
+  
+    /* Print header on each page */
+    @page {
+      margin: 0.5in; /* Adjust as needed */
+    }
+  
+    header::before {
+      content: "Talks - My Presentations";
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      border-bottom: 1px solid black;
+      margin-bottom: 1em;
+      padding-bottom: 0.5em;
+    }
+  }
+  

@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: "Avenir LT Std";
+    src: url("avenir-lt-std-roman.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+body {
+    /*font-family: Arial, Verdana, sans-serif;*/
+    font-family:  'Avenir LT Std';
+    margin: 1em 4.2em 1em 1.2em;
+    max-width: 80%;
+    background: rgb(255, 255, 255);
+}
+
+
+h1 {
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    line-height: 2em;
+    font-size:38px;
+    margin-bottom: .51em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+h2 {
+    font-size:30px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #008216;
+}
+
+h3 {
+    font-size:26px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #008216;
+}
+
+h4 {
+    font-size:22px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: normal;
+    color: #008216;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #bc4ee7;
+}
+a:visited{
+    color: #0000ff;
+}
+
+.navbar {
+  background: #f0f0f0;
+  padding: .1em;
+  margin-bottom:2em;
+}
+
+#profile_pic {
+ float:right;
+ margin:0em 0em 1em 1em;
+ }
+
+.footer {
+    font-size: .8em;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.navbar {
+    background: rgb(96, 255, 5);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
